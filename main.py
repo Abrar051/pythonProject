@@ -130,4 +130,135 @@ def greet_user(first_name, last_name):
     print(f'Hello {first_name} and {last_name} welcome')
 
 
-greet_user('abrar', 'shahriar')'''
+greet_user('abrar', 'shahriar')
+
+
+def square(number):
+    return number * number
+
+
+print(square(2))
+
+
+def emoji_converter(message):
+    words = message.split(' ')
+    emojis = {
+        ":)": "happy face",
+        ":(": "sad face"
+    }
+    output = ""
+
+    for word in words:
+        emojis.get(word, word)
+        print(emojis.get(word, word))
+        output = output + emojis.get(word, word) + " "
+    return output
+
+
+message = input(">")
+print(emoji_converter(message))'''
+
+'''in java it is called try catch
+try:
+    age=int(input('Age : '))
+    print(age)
+except ZeroDivisionError:
+    print('Age cannot be divided by zero')
+except ValueError:
+    print('Invalid input')'''
+
+# this is how we can do comment in python
+
+# now about class the most important part of python
+
+numbers = [1, 2, 3, 4, 5, 6]
+
+'''
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def move(self):
+        print("move")
+
+    def draw(self):
+        print("draw")
+
+
+point1 = Point()
+point1.x = 10
+point1.y = 20
+print(point1.x)
+point1.draw()
+
+point2 = Point()
+point2.x = 10
+point2.y = 20
+print(point2.x)
+
+point = Point(10, 20)
+point.x = 10
+print(point.x)
+
+
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def talk(self):
+        print(f"Hi I am {self.name}")
+
+
+john = Person("John wick")
+print(john.name)
+john.talk()
+
+bob = Person("Bob")
+print(bob.name)
+bob.talk()
+
+
+class Mamal:
+    @staticmethod
+    def walk():
+        print('walk')
+
+
+class Dog(Mamal):
+    @staticmethod
+    def bark():
+        print("bark")
+
+
+class Cat(Mamal):
+    @staticmethod
+    def be_annoying():
+        print("")
+
+
+dog1 = Dog()
+dog1.walk()
+cat1 = Cat()
+cat1.walk()'''
+# importing items from another python file
+'''
+import converter
+from converter import kg_to_lbs
+from converter import find_max'''
+
+'''kg_to_lbs(100)
+print(converter.lbs_to_kg(50))
+print(converter.kg_to_lbs(60))
+
+for i in range(0, 5):
+    print(i)
+    i = i + 0.5
+
+print(find_max([1, 2, 3, 6, 8]))'''
+
+#package in python
+
+import ecommerce.shipping
+
+
