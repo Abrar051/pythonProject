@@ -257,8 +257,63 @@ for i in range(0, 5):
 
 print(find_max([1, 2, 3, 6, 8]))'''
 
-#package in python
+# package in python
 
-import ecommerce.shipping
+'''import ecommerce.shipping
+from ecommerce import shipping
+from ecommerce.shipping import calc_shipping
+
+
+shipping.calc_shipping()'''
+
+'''import random
+
+for i in range(3):
+    print(random.randint(10, 20))
+
+members = ['John', 'Mary', 'Bob', 'Mosh']
+
+leader = random.choice(members)
+print(leader)'''
+
+'''make a class which will contain a random function which we can call later for dice roll'''
+
+'''import random
+
+
+class Dice:
+    def roll(self):
+        first = random.randint(1, 6)
+        second = random.randint(1, 6)
+        return first, second
+
+
+dice = Dice()
+print(dice.roll())'''
+
+# Absolute path
+# Relative path
+
+# for windows c:\Program Files\Microsoft
+# /usr/local/bin
+
+# Relative path
+
+'''path = Path("ecommerce")
+print(path.exists())
+path = Path("emails")
+print(path.mkdir())
+path1 = Path()
+print(path1.glob('*.py'))
+
+from pathlib import Path
+
+path = Path()
+
+for file in path.glob('*.py'):
+    print(file)
+
+for file in path.glob('*'):
+    print(file)'''
 
 
