@@ -5,7 +5,7 @@ import pip
 from bs4 import BeautifulSoup
 import requests
 
-url = "http://www.ibm.com"
+url = "https://www.facebook.com/islam.sumaiya.20"
 data = requests.get(url).text
 soup = BeautifulSoup(data , "html.parser")
 for link in soup.find_all('a',href=True):
