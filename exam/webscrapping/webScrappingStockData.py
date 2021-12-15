@@ -22,9 +22,9 @@ netflix_data = netflix_data.append(
     {"Date": date, "Open": Open, "High": high, "Low": low, "Close": close, "Adj Close": adj_close, "Volume": volume},
     ignore_index=True)
 
-netflix_data.head()
+print(netflix_data.head())
 read_html_pandas_data = pd.read_html(url)
 read_html_pandas_data = pd.read_html(str(soup))
 
 netflix_dataframe = read_html_pandas_data[0]
-netflix_dataframe.head()
+print(netflix_dataframe.head())
