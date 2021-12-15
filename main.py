@@ -316,4 +316,7 @@ for file in path.glob('*.py'):
 for file in path.glob('*'):
     print(file)'''
 
+def add (a,b):
+    return a+b
 
+print(add(2,3))

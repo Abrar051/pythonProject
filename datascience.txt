@@ -1,0 +1,59 @@
+take 1 : coding , math and statistics in applied settings
+
+take 2 : the analysis of diverse data
+
+take 3 : inclusive analysis
+
+rare qualities
+
+Takes unstructured data, then finds order, meaning and value
+
+High demand
+Data science provides insight and competitive advantage
+
+More about demand
+McKinsey Global Institute
+
+steps
+
+1 First : Planning
+2 Second : Data prep
+3 Third : Modeling
+4 Fourth : Follow up
+
+1 : Planning :
+Define Goals
+Organize resources
+coordinate people
+schedule project
+
+2 : Data Prep
+Get data
+Clean data
+Explore data
+Refine Data
+
+Modeling :
+Create model
+Validate model
+Evaluate model
+Refine model
+
+Follow up
+Present model
+Deploy model
+Revisit model
+Archive assets
+
+
+Measurement
+Metrics
+
+Uses
+Data browsing
+Sorting
+Rearranging
+Finding and replacing
+
+
+

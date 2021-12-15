@@ -1,0 +1,10 @@
+with open("text.txt", "r") as file1:
+    file_stuff=file1.readline()
+    print(file_stuff)
+    file_stuff=file1.readline()
+    print(file_stuff)
+print(file1.name)
+print(file1.encoding)
+print(file1.mode)
+FileContent = file1.read()
+print(FileContent)
